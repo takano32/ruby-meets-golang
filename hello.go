@@ -12,7 +12,6 @@ func fib(n int) int {
 	return fib(n-2) + fib(n-1)
 }
 
-
 //export Init_hello
 func Init_hello() {
 	fmt.Println("hello.")
